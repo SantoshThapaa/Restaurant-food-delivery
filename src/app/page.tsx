@@ -1,8 +1,13 @@
-import React from 'react'
+import Featured from'@/components/Featured'
+import Offer from'@/components/Offer'
+import Slider from'@/components/Slider'
 
-const MenuPage = () => {
-  return (
-    <div>MenuPage</div>
+export default function Home(){
+  return(
+    <main>
+      <Slider/>
+      <Featured/>
+      <Offer/>
+    </main>
   )
 }
-export default MenuPage
