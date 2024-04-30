@@ -1,3 +1,4 @@
+// AQ4zmdIdoiYRybw6jlv8udOkIxyfmB8J9evrfgtnpChDIHSFn-8XvC2LqbvUch5LenPnYtWOWce8VCnc
 type Product = {
     id: number;
     title: string;
@@ -14,7 +15,7 @@ export const featuredProducts: Products = [
         id: 1,
         title: "Sicilian",
         desc: "A homemade pizza dough is the base of this red pie studded with melt-in-your-mouth squash and salty salami.",
-        img: "/food1.png",
+        img: "/food2.png",
         price: 24.9,
         options: [
             {
@@ -167,7 +168,7 @@ export const pizzas: Products = [
         id: 1,
         title: "Sicilian",
         desc: "A homemade pizza dough is the base of this red pie studded with melt-in-your-mouth squash and salty salami.",
-        img: "/food1.png",
+        img: "/food2.png",
         price: 24.9,
         options: [
             {
@@ -311,6 +312,31 @@ export const pizzas: Products = [
         ],
     },
 ];
+
+
+export const singleProduct: Product={
+    id: 1,
+        title: "Sicilian",
+        desc: "A homemade pizza dough is the base of this red pie studded with melt-in-your-mouth squash and salty salami.",
+        img: "/food2.png",
+        price: 24.9,
+        options: [
+            {
+                title: "Small",
+                additionalPrice: 0,
+            },
+            {
+                title: "Medium",
+                additionalPrice: 4,
+            },
+            {
+                title: "Large",
+                additionalPrice: 6,
+            },
+        ],
+}
+
+
 
 type Menu = {
     id: number;
